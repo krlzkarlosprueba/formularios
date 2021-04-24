@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bancos</title>
+  </head>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+    body {
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      co
+    }
+
+    legend {
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <fieldset>
+      <legend>BUSQUEDA DE REMITENTE</legend>
+      <form action="">
+        <label for="">Tipo de documento</label>
+        <select name="" id="">
+          <option value="">DNI</option>
+          <option value="">CARNET DE EXTRANJERIA</option>
+          <option value="">PTP</option>
+          <option value="">PASAPORTE</option>
+          <option value="">CARNET DE REFUGIADO</option>
+        </select>
+        <br />
+        <label for="">Numero de documento</label>
+        <input type="number" />
+        <br />
+        <label for="">Nombre</label>
+        <input type="text" />
+        <br />
+        <label for="">Apellido</label>
+        <input type="text" />
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>INFORMACION DE LA TRANSFERENCIA</legend>
+      <label for="">Moneda de envio</label>
+      <select name="" id="">
+        <option value="">Dolar estadounidense</option>
+        <option value="">Sol peruano</option>
+      </select>
+      <br />
+      <label for="">Pais de pago</label>
+      <select name="" id="">
+        <option value="">Colombia</option>
+        <option value="">Argentina</option>
+        <option value="">Brasil</option>
+        <option value="">España</option>
+        <option value="">Estado unidos</option>
+        <option value="">Italia</option>
+      </select>
+      <br />
+      <label for="">Cantidad de envio</label>
+      <input type="number" />
+    </fieldset>
+    <fieldset>
+      <legend>Servicio de entrega</legend>
+      <label for="">Servicio de entrega</label>
+      <select name="" id="">
+        <option value="">DIRECTO AL BANCO</option>
+      </select>
+      <br />
+      <label for="">Nombre del banco</label>
+      <input type="text" />
+      <br />
+      <label for="">Numero de cuenta</label>
+      <input type="number" />
+      <br />
+      <label for="">Tipo de cuenta</label>
+      <select name="" id="">
+        <option value="">Ahorros</option>
+        <option value="">Cheques</option>
+      </select>
+      <br />
+      <label for="">Id de nacionalidads</label>
+      <input type="text" />
+    </fieldset>
+
+    <fieldset>
+      <legend>DATOS DEL REMITENTE</legend>
+      <label for="">Nombre</label>
+      <input type="text" />
+      <br />
+      <label for="">Apellido</label>
+      <input type="text" />
+      <br />
+      <label for="">Pais de residencia</label>
+      <select name="" id="">
+        <option value="">Peru</option>
+        <option value="">Argentina</option>
+        <option value="">Colombia</option>
+        <option value="">Ecuador</option>
+      </select>
+      <br />
+      <label for="">Codigo postal</label>
+      <input type="text" />
+      <br />
+      <label for="">Departamento</label>
+      <select name="" id="">
+        <option value="">Lima</option>
+      </select>
+      <br />
+      <label for="">Distrito</label>
+      <select name="" id="">
+        <option value="">bellavista</option>
+      </select>
+      <br />
+      <label for="">Direccion</label>
+      <input type="text" />
+      <br />
+      <label for="">Provincias</label>
+      <select name="" id="">
+        <option value="">Lima</option>
+      </select>
+      <br />
+      <label for="">Codigo de pais</label>
+      <select name="" id="">
+        <option value="">Peru +51</option>
+        <option value="">Peru +51</option>
+        <option value="">Peru +51</option>
+        <option value="">Peru +51</option>
+      </select>
+      <br />
+      <label for="">Numero de telefono</label>
+      <input type="number" />
+    </fieldset>
+
+    <fieldset>
+      <legend>ENVIA EL DINERO EN NOMBRE DE UN TERCERO?</legend>
+      <label for="">envia el dinero en nombre de una tercera persona?</label>
+      <select name="" id="">
+        <option value="">SI</option>
+        <option value="">NO</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>PREGUNTA PARA PERSONA EXPUESTAS POLITICAMENTE</legend>
+      <label for=""
+        >Tiene o ha tenido un puesto de alto rango en cargos publicos del
+        gobierno o n puesto de alto rango <br />
+        en alguna entidad perteneciente al gobierno , o es usted pariente
+        cercano o socio cercano de una perona en esa situacion?</label
+      >
+      <select name="" id="">
+        <option value="">SI</option>
+        <option value="">NO</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>DOCUMENTO DE IDENTIFICACION</legend>
+      <label for="">Tipo de documento</label>
+      <select name="" id="">
+        <option value="">DNI</option>
+        <option value="">CARNET DE EXTRANJERIA</option>
+        <option value="">PTP</option>
+        <option value="">PASAPORTE</option>
+        <option value="">CARNET DE REFUGIADO</option>
+      </select>
+      <br />
+      <label for="">Fecha de Nacimiento (dd/mm/aaa)</label>
+      <input type="date" />
+      <br />
+      <label for="">Fecha de caducidad (dd/mm/aaa)</label>
+      <input type="date" />
+      <br />
+      <label for="">Fecha de emision (dd/mm/aaa)</label>
+      <input type="date" />
+      <br />
+      <label for="">Ocupacion</label>
+      <select name="" id="">
+        <option value="">Ingeniero</option>
+        <option value="">Ingeniero</option>
+        <option value="">Ingeniero</option>
+        <option value="">Ingeniero</option>
+      </select>
+      <br />
+      <label for="">Categoria de puesto laboral</label>
+      <select name="" id="">
+        <option value="">Nivel basico/analista/asistente</option>
+        <option value="">Nivel basico/analista/asistente</option>
+        <option value="">Nivel basico/analista/asistente</option>
+        <option value="">Nivel basico/analista/asistente</option>
+      </select>
+
+      <br />
+      <label for="">Relacion con el destinatario</label>
+      <select name="" id="">
+        <option value="">Familia</option>
+        <option value="">Amigos</option>
+        <option value="">Socio comercial</option>
+        <option value="">Comprador/Vendedor</option>
+      </select>
+
+      <br />
+      <label for="">Motivo de la transaccion</label>
+      <select name="" id="">
+        <option value="">Ayuda familiar</option>
+        <option value="">Ahorro</option>
+        <option value="">Regalo</option>
+        <option value="">Pago de bienes</option>
+        <option value="">Transaccion comercial</option>
+      </select>
+
+      <br />
+      <label for="">Pais de Nacimiento</label>
+      <select name="" id="">
+        <option value="">Peru</option>
+        <option value="">Argentina</option>
+        <option value="">Colombia</option>
+        <option value="">Ecuador</option>
+      </select>
+
+      <br />
+      <label for="">Pais de Nacionalidad</label>
+      <select name="" id="">
+        <option value="">Peru</option>
+        <option value="">Argentina</option>
+        <option value="">Colombia</option>
+        <option value="">Ecuador</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>DATOS DEL BENEFICIARIO SI ES COLOMBIA</legend>
+      <label for="">Nombre del beneficiario</label>
+      <input type="text" /><br />
+      <label for="">Apellido Paterno</label>
+      <input type="text" /><br />
+      <label for="">Apellido Materno</label>
+      <input type="text" />
+      <br />
+      <label for="">Direccion del receptor</label>
+      <input type="text" />
+      <br />
+      <label for="">Estado</label>
+      <select name="" id="">
+        <option value="">Bogota D.C</option>
+      </select>
+      <br />
+      <label for="">Ciudad</label>
+      <select name="" id="">
+        <option value="">Bogota</option>
+      </select>
+      <br />
+      <label for="">Codigo de pais del destinatario</label>
+      <select name="" id="">
+        <option value="">Colombia(+57)</option>
+      </select>
+      <br />
+      <label for="">Celular del beneficiario</label>
+      <input type="number" />
+    </fieldset>
+    <fieldset>
+      <legend>DATOS DEL BENEFICIARIO SI ES ARGENTINA</legend>
+      <label for="">Nombre del beneficiario</label>
+      <input type="text" /><br />
+      <label for="">Apellido Paterno</label>
+      <input type="text" /><br />
+      <label for="">Apellido Materno</label>
+      <input type="text" />
+      <br />
+      <label for="">Direccion del receptor</label>
+      <input type="text" />
+      <br />
+      <label for="">Estado</label>
+      <select name="" id="">
+        <option value="">Buenos aires</option>
+      </select>
+      <br />
+      <label for="">Ciudad</label>
+      <select name="" id="">
+        <option value="">mar del plata</option>
+      </select>
+      <br />
+      <label for="">Codigo de pais del destinatario</label>
+      <select name="" id="">
+        <option value="">Argentina(+54)</option>
+      </select>
+      <br />
+      <label for="">Celular del beneficiario</label>
+      <input type="number" />
+      <br />
+      <label for="">Correo electronico del destinatario</label>
+      <input type="email" />
+    </fieldset>
+  </body>
+</html>
